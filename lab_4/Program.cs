@@ -20,14 +20,14 @@ namespace lab
 			}
 			//тепер переносимо цифри у кінець у зворотньому порядку
 			int length = str.Length;
-			for (int postitionNumber = 0; postitionNumber < length; postitionNumber++)
+			for (int positionNumber = 0; positionNumber < length; positionNumber++)
 			{
-				if (Char.IsDigit(str[postitionNumber]))
+				if (Char.IsDigit(str[positionNumber]))
 				{
-					str.Insert(length, str[postitionNumber]);
-					str.Remove(postitionNumber, 1);
+					str.Insert(length, str[positionNumber]);
+					str.Remove(positionNumber, 1);
 					length--;
-					postitionNumber--;
+					positionNumber--;
 				}
 			}
 			Console.WriteLine(str);
