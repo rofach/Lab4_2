@@ -18,7 +18,7 @@ namespace lab
 					positionNumber--;
 				}
 			}
-			// тепер переносимо цифри у кінець у зворотньому порядку
+			//тепер переносимо цифри у кінець у зворотньому порядку
 			int length = str.Length;
 			for (int postitionNumber = 0; postitionNumber < length; postitionNumber++)
 			{
